@@ -1,6 +1,6 @@
 # npmtest-request-promise
 
-#### test coverage for  [request-promise (v4.2.0)](https://github.com/request/request-promise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-request-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-request-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-request-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-request-promise)
+#### basic test coverage for  [request-promise (v4.2.0)](https://github.com/request/request-promise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-request-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-request-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-request-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-request-promise)
 
 #### The simplified HTTP request client 'request' with Promise support. Powered by Bluebird.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-request-promise/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-request-promise/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-request-promise/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-request-promise/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-request-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-request-promise/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-request-promise/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-request-promise/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-request-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-request-promise/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-request-promise/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-request-promise/build/coverage.html/index.html)
 
@@ -120,7 +120,8 @@
         "test": "gulp ci",
         "test-publish": "gulp ci-no-cov"
     },
-    "version": "4.2.0"
+    "version": "4.2.0",
+    "bin": {}
 }
 ```
 
